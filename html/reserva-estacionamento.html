@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Estacionamento</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Reserva de Estacionamento</h1>
+        <nav>
+            <a href="index.html">Página Inicial</a>
+            <a href="chegadas-partidas.html">Chegadas e Partidas</a> 
+        </nav>
+    </header>
+
+    <!-- Seção de Informações sobre o Estacionamento -->
+    <section id="informacoes">
+        <h2>Informações sobre o Estacionamento</h2>
+        <p>Reserve sua vaga com antecedência para garantir o melhor preço e comodidade. Temos vagas cobertas e descobertas.</p>
+        <ul>
+            <li><strong>Vagas Cobertas:</strong> R$ 30,00/dia</li>
+            <li><strong>Vagas Descobertas:</strong> R$ 20,00/dia</li>
+        </ul>
+    </section>
+
+    <!-- Formulário de Reserva -->
+    <section id="formulario">
+        <h2>Faça sua Reserva</h2>
+        <form id="reservaForm">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+            
+            <label for="dataEntrada">Data de Entrada:</label>
+            <input type="date" id="dataEntrada" name="dataEntrada" required>
+            
+            <label for="horaEntrada">Hora de Entrada:</label>
+            <input type="time" id="horaEntrada" name="horaEntrada" required>
+            
+            <label for="vaga">Tipo de Vaga:</label>
+            <select id="vaga" name="vaga" required>
+                <option value="coberta">Coberta - R$ 30,00/dia</option>
+                <option value="descoberta">Descoberta - R$ 20,00/dia</option>
+            </select>
+            
+            <button type="submit">Reservar Vaga</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Aeroporto Simples - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
