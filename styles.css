@@ -387,3 +387,20 @@ footer {
     bottom: 0;
     box-sizing: border-box;
 }
+
+/* Estilo para o botão de download */
+.btn-download {
+    padding: 10px 20px;
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+.btn-download:hover {
+    background-color: #003399;
+}
